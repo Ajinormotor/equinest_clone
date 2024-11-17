@@ -9,12 +9,13 @@ import Agreement from '../pages/auth/Agreement'
 import Successfully from '../pages/auth/Successfully'
 import Signin from '../pages/auth/Signin'
 const Routs = () => {
+  
  const location = useLocation()
 
 
   return (
     <section>
-        <AnimatePresence>
+        <AnimatePresence mode='wait'>
             <Routes  key={location.pathname}>
                 <Route path='/' element={<Home />}  />
 
