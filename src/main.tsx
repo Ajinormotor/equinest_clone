@@ -6,9 +6,9 @@ import App from './App.tsx'
 import 'remixicon/fonts/remixicon.css'
 import { BrowserRouter } from 'react-router-dom'
 
+import "../node_modules/slick-carousel/slick/slick.css";
+import "../node_modules/slick-carousel/slick/slick-theme.css";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 
 
